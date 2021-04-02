@@ -8,6 +8,8 @@ import (
 	"os"
 	"runtime"
 	"sync"
+
+	_ "go.uber.org/automaxprocs"
 )
 
 type report struct {
