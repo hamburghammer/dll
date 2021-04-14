@@ -6,6 +6,9 @@
 
 A simple linter to find `defer` statements inside of for loops in Go source.
 
+This is a fork from [gsquire/dll](https://github.com/gsquire/dll) with support for concurrent analyses. The goal of it was to practice the work with goroutines.
+
+
 ## Why?
 It's often erroneous to use `defer` inside of a loop as it can lead to memory leaks or other
 unintended behavior. It can also be easy to miss this in a code review as using `defer` to
